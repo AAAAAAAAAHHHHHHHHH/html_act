@@ -1,29 +1,35 @@
-.boarderline{
+.borderline{
     border: 1px solid;
     margin-top: 10px;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 header{
-    width: 100%;
     height: 100px;
 }
 
-main{
-    width: 49%;
-    height: 100vh;
-    float: left;
-    margin-right: 10;
+nav{
+    height: 100px;
 }
 
-aside{
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+main, aside{
     width: 49%;
     height: 100vh;
-    float: right;
-    margin-left: 10;
 }
 
 footer{
-    width: 100%;
     height: 100px;
-    float: left;
 }
